@@ -1,0 +1,29 @@
+.button {
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: rgb(123, 180, 255);
+  font-size: 20px;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: rgb(101, 168, 255);
+}
+
+.button:active {
+  background-color: rgb(50, 139, 255);
+}
+
+.endOfGame {
+  background-color: rgb(131, 228, 128);
+}
+
+.endOfGame:hover {
+  background-color: rgb(92, 214, 88);
+}
+
+.endOfGame:active {
+  background-color: rgb(61, 201, 56);
+}
