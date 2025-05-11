@@ -11,7 +11,7 @@ const initialState = {
 
 const gameReducer = (state = initialState, { type, payload }) => {
   switch (type) {
-    case 'FIELD_CLICK': {
+    case 'SET_GAME_STATE': {
       if (state.field[payload.index] === null && !state.isGameEnded) {
         const newField = state.field.slice();
         newField[payload.index] = state.currentPlayer;

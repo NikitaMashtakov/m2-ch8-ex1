@@ -8,7 +8,7 @@ export const useStore = () => {
     const unsubscribe = store.subscribe(() => {
       setState(store.getState());
     });
-    return () => unsubscribe();
+    return unsubscribe;
   }, []);
 
   return state;

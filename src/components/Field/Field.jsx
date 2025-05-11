@@ -7,7 +7,7 @@ export const Field = () => {
   const { field, isGameEnded } = useStore();
 
   const handleClick = (index) => {
-    store.dispatch({ type: 'FIELD_CLICK', payload: { index } });
+    store.dispatch({ type: 'SET_GAME_STATE', payload: { index } });
   };
 
   return (
